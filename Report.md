@@ -21,8 +21,8 @@ The learning parameters used were very typical but worked very well:
 - gamma - time discount - 0.99,
 - tau - 1 / 1000,
 - learning rate - 5 / 10000,
-- alpha (the power in probabilities in Prioritized DQN) - 1.0
-- beta (the power in importance-sampling weighing) - 1.0
+- alpha (the power in probabilities in Prioritized DQN) - 1.0,
+- beta (the power in importance-sampling weighing) - 1.0.
 
 ### 3. Learning process
 
@@ -32,7 +32,7 @@ The charts below show the learning curves of both agents.
 
 ![DDQN agent scores until achieving average score of 30](ddqn_scores.png)
 
-![PDDQN agent scores until achieving average score of 30](ddqn_scores.png)
+![PDDQN agent scores until achieving average score of 30](pddqn_scores.png)
 
 ![Agents' scores until achieving average score of 30](scores.png)
 
